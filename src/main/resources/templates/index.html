@@ -22,7 +22,7 @@
 <div class="container py-5">
     <div class="d-flex align-items-center mb-4">
         <div class="app-logo">N</div>
-        <h1 class="h3 mb-0">Mis Notas (Java Spring)</h1>
+        <h1 class="h3 mb-0 text-bg-dark">Mis Notas (Java Spring)</h1>
     </div>
 
     <div class="card shadow-sm mb-4">
@@ -47,7 +47,7 @@
     </div>
 
     <div class="mb-3" id="filters">
-        <span class="me-2 text-muted">Filtrar:</span>
+        <span class="me-2 text-bg-dark">Filtrar:</span>
         <button class="btn btn-sm btn-outline-secondary active filter-btn" data-tag="all">Todas</button>
         <th:block th:each="tag : ${allTags}">
             <button class="btn btn-sm btn-outline-secondary filter-btn" th:data-tag="${tag}" th:text="${tag}"></button>
