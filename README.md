@@ -53,7 +53,7 @@ mvn spring-boot:run
 **Opción B: En cualquier sistma que tenga JRE ejecuta directamente el archivo compilado desde el directorio en el que esté**
 
 ```bash
-java -j jar notas-java-8-1.0.0.jar
+java -jar notas-java-8-1.0.0.jar
 ```
 
 Verás los logs de Spring arrancando. Espera a ver un mensaje similar a:
